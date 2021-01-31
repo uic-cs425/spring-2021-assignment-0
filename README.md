@@ -29,7 +29,7 @@ The application should contain a file [input](https://developer.mozilla.org/en-U
 {"positions": [x_1,y_1,z_1,x_2,y_2,z_2,...,x_n,y_n,z_n], "colors": [r_1,g_1,b_1,a_1,r_2,g_2,b_2,a_2,...,r_n,g_n,b_n,a_n]}}
 ```
 
-You can download a complete example in this repository (file [example.json](https://github.com/uic-cs425/spring-2021-assignment-0/blob/main/example.json)). In order to read this file from the local server, use the [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader) object, and the [onload](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/onload) event handler. If by any chance a file not following the specified format is loaded, then the application should display an [alert](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert).
+You can download a complete example in this repository (file [example.json](https://github.com/uic-cs425/spring-2021-assignment-0/blob/main/example.json)). In order to read the file uploaded by the user, use the [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader) object, and the [onload](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/onload) event handler. If by any chance a file not following the specified format is loaded, then the application should display an [alert](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert).
 
 
 
