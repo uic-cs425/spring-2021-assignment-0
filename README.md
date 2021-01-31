@@ -46,7 +46,7 @@ The delivery of the assignments will be done using GitHub Classes. It will not b
 We will provide a GitHub Classroom link for each assignment. Follow the link to create a repository. Use `git clone` to get a local copy of the newly created repository. After writing your code, you can push your modifications to the server using `git commit` followed by `git push`. For example, if your username is `uic-user`:
 
 ```
-git clone git@github.com:uic-cs425/assignment-0-Mary-h86.git
+git clone git@github.com:uic-cs425/assignment-0-uic-user.git
 touch index.html
 git add index.html
 git commit -am "index.html file"
