@@ -40,5 +40,18 @@ The delivery of the assignments will be done using GitHub Classes. It will not b
 - assignment0.js: assignment main source code.
 - README.md and image files: markdown readme file with a description of your program.
 
+### GitHub Classroom
+[git](https://en.wikipedia.org/wiki/Git) is a version control system, designed to help developers track different versions of your code, synchronize them across different machines, and collaborate with others. Follow the instructions [here](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to install git on your computer. [GitHub](https://github.com/) is a website that supports git as a service. [This](https://guides.github.com/activities/hello-world/) a nice tutorial on how to get started with git and GitHub.
+
+We will provide a GitHub Classroom link for each assignment. Follow the link to create a repository. Use `git clone` to get a local copy of the newly created repository. After writing your code, you can push your modifications to the server using `git commit` followed by `git push`. For example, if your username is `uic-user`:
+
+```
+git clone git@github.com:uic-cs425/assignment-0-Mary-h86.git
+touch index.html
+git add index.html
+git commit -am "index.html file"
+git push
+```
+
 ### Grading
 The code will be evaluated on Firefox. Your submission will be graded according to the quality of the image results, interactions, and correctness of the implemented algorithms.
