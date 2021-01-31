@@ -3,7 +3,7 @@
 ## Assignment 0: Introduction to JavaScript and WebGL
 The goal of this first assignment is to get you familiar with JavaScript, WebGL calls, development environment, and the assignment submission process. You will develop a web application to render triangles with vertex position and colors defined in an external JSON file, specified by the user through a configuration panel.
 
-There are four tasks, and you are free to re-use any code from the labs ([lab 1 code](https://www.dropbox.com/s/ht3hwdbd6ra9b42/gl.html?dl=1) and [lab 2 code](https://www.dropbox.com/sh/ydkn3isxt4vkuck/AAAcVd2-3w8T4hq8C_3n7g_Aa?dl=1)).
+There are five tasks, and you are free to re-use any code from the labs ([lab 1 code](https://www.dropbox.com/s/ht3hwdbd6ra9b42/gl.html?dl=1) and [lab 2 code](https://www.dropbox.com/sh/ydkn3isxt4vkuck/AAAcVd2-3w8T4hq8C_3n7g_Aa?dl=1)).
 
 ### Tasks
 
@@ -31,8 +31,14 @@ The application should contain a file [input](https://developer.mozilla.org/en-U
 
 You can download a complete example in this repository (file example.json). If by any chance a file not following the specified format is loaded, then the application should display an [alert](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert).
 
+#### Task 5
+Write a README.md file with a description of the program. The goal of this file is to 1) explain how to run the program, and 2) detail the main methods and functionalities that were implemented. You are encouraged to use images and diagrams (add them to the repository), make sure to reference them in the text itself.
+
 ### Submission
-The delivery of the assignments will be done using GitHub Classes. It will not be necessary to use any external JavaScript library for your assignments. If you do find the need to use additional libraries, please send us an email or Discord message to get approval.
+The delivery of the assignments will be done using GitHub Classes. It will not be necessary to use any external JavaScript library for your assignments. If you do find the need to use additional libraries, please send us an email or Discord message to get approval. Your assignment should contain at least the following files:
+- index.html: the main HTML file.
+- assignment0.js: assignment main source code.
+- README.md and image files: markdown readme file with a description of your program.
 
 ### Grading
 The code will be evaluated on Firefox. Your submission will be graded according to the quality of the image results, interactions, and correctness of the implemented algorithms.
