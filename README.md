@@ -29,7 +29,9 @@ The application should contain a file [input](https://developer.mozilla.org/en-U
 {"positions": [x_1,y_1,z_1,x_2,y_2,z_2,...,x_n,y_n,z_n], "colors": [r_1,g_1,b_1,a_1,r_2,g_2,b_2,a_2,...,r_n,g_n,b_n,a_n]}}
 ```
 
-You can download a complete example in this repository (file example.json). If by any chance a file not following the specified format is loaded, then the application should display an [alert](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert).
+You can download a complete example in this repository (file [example.json](https://github.com/uic-cs425/spring-2021-assignment-0/blob/main/example.json)). In order to read this file from the local server, use the [FileReader](https://developer.mozilla.org/en-US/docs/Web/API/FileReader) object, and the [onload](https://developer.mozilla.org/en-US/docs/Web/API/FileReader/onload) event handler. If by any chance a file not following the specified format is loaded, then the application should display an [alert](https://developer.mozilla.org/en-US/docs/Web/API/Window/alert).
+
+
 
 #### Task 5
 Write a README.md file with a description of the program. The goal of this file is to 1) explain how to run the program, and 2) detail the main methods and functionalities that were implemented. You are encouraged to use images and diagrams (add them to the repository), make sure to reference them in the text itself.
