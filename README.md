@@ -14,7 +14,7 @@ Create a configuration panel with seven elements:
 3) A file [input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/file) element responsible for loading a JSON file.
 4) A [checkbox](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/checkbox) element to toggle between the colors of the triangles.
 
-You are free to decide the layout and color of the configuration panel elements.
+You are free to choose the layout and color of the configuration panel elements.
 
 #### Task 2
 Create a WebGL canvas that will display the rendered triangles.
