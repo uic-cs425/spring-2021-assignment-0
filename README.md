@@ -5,6 +5,8 @@ The goal of this first assignment is to get you familiar with JavaScript, WebGL 
 
 There are five tasks, and you are free to re-use any code from the labs ([lab 1 code](https://www.dropbox.com/s/ht3hwdbd6ra9b42/gl.html?dl=1) and [lab 2 code](https://www.dropbox.com/sh/ydkn3isxt4vkuck/AAAcVd2-3w8T4hq8C_3n7g_Aa?dl=1)).
 
+If you want, you can use the generate.ipynb Jupyter file to generate your own triangle mesh from an image file.
+
 ### Tasks
 
 #### Task 1
